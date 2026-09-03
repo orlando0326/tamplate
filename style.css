@@ -55,3 +55,12 @@ address{
     padding: 20px;
     border-radius: 30px;
 }
+@media (max-width: 600px){
+    body{
+        padding: 20px;
+    }
+    aside,article{
+        width: 100%;
+    }
+
+}
