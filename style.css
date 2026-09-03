@@ -58,26 +58,26 @@ address{
     padding: 20px;
     border-radius: 30px;
 }
-@media (max-width: 600px) AND  (max-width: 100px) {
+@media (max-width: 600px) {
     body{
-        background-color: hwb(0 15% 55%);
+        background-color: hwb(0 69% 7%);
         padding: 10px 20px;
         size:  16px;
     }
     aside,article,address{
         width: 100%;
-        background-color: rgb(234, 194, 18);
+        background-color: rgb(213, 205, 166);
         padding: 10px;
     }
     main,footer {
         flex-direction: row;
-        background-color: #425eed;
+        background-color: #b3d8e0;
         gap: 20px;
     }
 
 }
  
-@media (max-width: 1600px) and (min-width: 600px) {
+@media (max-width: 1617px) and (min-width: 1001px) {
     body{
         background-color: hwb(192 76% 6%);
         padding: 10px 20px;
@@ -94,22 +94,23 @@ address{
         gap: 20px;
     }
 
-@media (max-width: 1400px) and (min-width: 800px) {
-   
-   body{
-        background-color: hwb(191 10% 84%);
+}
+ 
+@media (max-width: 1000px) and (min-width: 601px) {
+    body{
+        background-color: hwb(0 0% 100%);
         padding: 10px 20px;
         size:  16px;
     }
     aside,article,address{
         width: 100%;
-        background-color: rgb(247, 247, 247);
+        background-color: rgb(223, 236, 236);
         padding: 10px;
     }
     main,footer {
         flex-direction: row;
-        background-color: #000000;
+        background-color: #425eed;
         gap: 20px;
     }
- }
+  }
 }
