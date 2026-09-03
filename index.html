@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+          <h1>Modelo de página Semântica</h1>
+          <p>Cabeçalho do site, possui a função de intrduzir áreas de cabeçalho e navegação.
+          Pode conter:</p>
+          <ul>
+            <li>H1 - Para titulo geral de pagina</li>
+            <li>Logo - tags img e picture</li>
+            <li>Menu</li>
+          </ul>
+    </header>
+    <nav>
+    <p> Area de navegação, pode conter links e menus para interação do usuario</p>
+    </nav>
+    <main>
+        <p>Conteúdo principal da página - Não pode conter mais de um por documento</p>
+        <article>
+            <p>Conteudo Independente, autocontido ou seja  começo meio e fim</p>
+            <section>
+                <p>Seção Genérica de Conteúdo</p>
+            </section>
+            <picture>
+                <p>O elemento picture é um contêiner semântico do HTML5 usado para entregar imagens responsivas e otimizadas conforme
+                     a tela ou formato suportado pelo
+                 navegador. Ele encapsula tags source para definir as variações de imagem e obrigatoriamente uma tag img
+                     final para acessibilidade e fallback.</p>
+               <source media="(min-width: 1600px)" srcset="https://placehold.co/300/red/black?text=Grande">
+               <source media="(max-width: 600px)" srcset="https://placehold.co/100/blue/yellow?text=Pequeno">
+                <img src="https://placehold.co/200/orange/white?text=Padrão" alt="Imagem de exemplo cinza com dimensões">
+            </picture>
+        </article>
+        <aside></aside>
+    </main>
+    <aside>
+    <p>seção de uma pagina que consiste de conteudo que é tangencialmente relacionado ao conteudo do seu 
+        entorno</p>
+    </aside>
+    <footer>
+        <p>Representa um rodápé da pagina ou da seção, pode vir acompanhado de um address como filho</p>
+        <address>
+            <p>Seção que permite a inclusão de informações sobre a origem do conteúdo, seja autoria de pessoas ou 
+        instituições, permite a inclusão de endereços, sejam fisicos ou digitais </p>
+        </address>
+    </footer>
+</body>
+</html>
